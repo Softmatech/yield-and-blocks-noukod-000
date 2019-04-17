@@ -1,4 +1,5 @@
-if block_given?
+def hello_t
+  if block_given?
     i = 0
 
     while i < array.length
@@ -10,6 +11,5 @@ if block_given?
   else
     puts "Hey! No block was given!"
   end
-end
 
 # call your method here!
